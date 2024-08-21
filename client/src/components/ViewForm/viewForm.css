@@ -1,0 +1,71 @@
+/* Container for ViewForm component */
+.view-form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f4f8, #e4e9f0); /* Gradient background */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.view-form-title {
+  font-size: 2.5em; /* Larger font size for the title */
+  margin-bottom: 20px;
+  color: #333; /* Darker color for better readability */
+  text-align: center; /* Center align the title */
+}
+
+/* Form styling */
+.view-form-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add spacing between form elements */
+}
+
+.view-form-form div {
+  background: #fff; /* White background for individual form elements */
+  border: 1px solid #ddd;
+  border-radius: 8px; /* Rounded corners for form elements */
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.view-form-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555; /* Slightly lighter color for the label */
+}
+
+.view-form-form input {
+  width: 100%;
+  padding: 12px; /* Increase padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Rounded corners for inputs */
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.view-form-form input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none;
+}
+
+.view-form-form button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 12px 24px; /* Increased padding for larger button */
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background color and transform */
+  align-self: flex-start; /* Align button to the start */
+}
+
+.view-form-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}

@@ -1,0 +1,142 @@
+/* Container for EditForm component */
+.edit-form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title input styling */
+  .edit-form-title {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 18px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  .edit-form-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-form-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for inputs */
+  .edit-form-inputs {
+    margin-top: 20px;
+  }
+  
+  .edit-form-inputs div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form-inputs p {
+    margin: 0;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  
+  /* Styling for read-only inputs */
+  .edit-form-inputs input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .edit-form-inputs button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-form-inputs button:hover {
+    background-color: #c8ba23;
+  }
+  .home-page-container {
+    padding: 20px;
+  }
+  
+  .home-page-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .create-form-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .forms-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .form-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-title {
+    flex-grow: 1;
+  }
+  
+  .form-actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .view-button {
+    background-color: #008CBA;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #FFC107;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
