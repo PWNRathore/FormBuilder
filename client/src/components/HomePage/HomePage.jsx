@@ -7,11 +7,21 @@ function HomePage() {
   const [forms, setForms] = useState([]);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    axios.get(`${process.env.REACT_APP_GET_URL}`)
-      .then(res => setForms(res.data))
-      .catch(err => console.log(err));
-  }, []);
+const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  const fetchData = async () => {
+    try {
+      const res = await axios.get(`${process.env.REACT_APP_GET_URL}`);
+      setForms(res.data);
+    } catch (err) {
+      console.log(err);
+    } finally {
+      setLoading(false);
+    }
+  };
+  fetchData();
+}, []);
 
   const deleteForm = (id) => {
     const url = `${process.env.REACT_APP_DELETE_URL}/${id}`;
